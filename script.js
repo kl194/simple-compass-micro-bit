@@ -8,15 +8,15 @@ basic.forever(function ()
     } 
     else if (heading >= 22.5 && heading < 67.5) 
     {
-        basic.showArrow(ArrowNames.NorthEast)
+        basic.showArrow(ArrowNames.NorthWest)
     } 
     else if (heading >= 67.5 && heading < 112.5) 
     {
-        basic.showArrow(ArrowNames.East)
+        basic.showArrow(ArrowNames.West)
     } 
     else if (heading >= 112.5 && heading < 157.5) 
     {
-        basic.showArrow(ArrowNames.SouthEast)
+        basic.showArrow(ArrowNames.SouthWest)
     } 
     else if (heading >= 157.5 && heading < 202.5) 
     {
@@ -24,14 +24,14 @@ basic.forever(function ()
     } 
     else if (heading >= 202.5 && heading < 247.5) 
     {
-        basic.showArrow(ArrowNames.SouthWest)
+        basic.showArrow(ArrowNames.SouthEast)
     } 
     else if (heading >= 247.5 && heading < 292.5) 
     {
-        basic.showArrow(ArrowNames.West)
+        basic.showArrow(ArrowNames.East)
     } 
     else 
     {
-        basic.showArrow(ArrowNames.NorthWest)
+        basic.showArrow(ArrowNames.NorthEast)
     }
 })
